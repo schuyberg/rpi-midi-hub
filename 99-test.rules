@@ -1,0 +1,3 @@
+# rpi-midi-hub rule for test
+ATTRS{idVendor}=="$2", ATTRS{idProduct}=="$3"
+RUN+="/home/pi/bin/connectall.sh"
