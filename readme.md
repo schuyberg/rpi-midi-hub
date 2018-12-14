@@ -19,4 +19,4 @@ Instructions:
     5. Reload the udev rules with `sudo udevadm control --reload-rules`
      
      
-Tested on a Raspberry Pi 1.2 running 
+Tested on a Raspberry Pi 1.2 running Raspbian Strech Lite
