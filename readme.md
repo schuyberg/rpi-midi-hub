@@ -6,9 +6,9 @@ Set up a Raspberry Pi as a USB/MIDI host and auto-connect devices. Adapted from 
 
 Instructions:
 
-1. Clone this repository to your home directory (on your Pi).
+1. Clone this repository to your Raspberry Pi (home directory or wherever): `git clone https://github.com/schuyberg/rpi-midi-hub.git`.
 
-2. Move the `rpi-midi-hub` directory to `/etc/rpi-midi-hub` with `sudo mv ./rpi-midi-hub /etc/`  (if you have trouble, make sure it is owned by root and the .sh files are executable)
+2. Move the `rpi-midi-hub` directory to `/etc/rpi-midi-hub` with `sudo mv ./rpi-midi-hub /etc/`  (make sure it is owned by root: `sudo chown -R root:root /etc/rpi-midi-hub`)
 
 3. Set up automatic device detection:
     
