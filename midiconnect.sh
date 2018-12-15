@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python ./midiconnect.py
+python /etc/rpi-midi-hub/midiconnect.py
