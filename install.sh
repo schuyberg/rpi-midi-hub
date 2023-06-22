@@ -6,7 +6,8 @@ echo "creating directory in /etc/, moving midiconnect scripts there, setting per
 mkdir /etc/rpi-midi-hub
 mv ./midiconnect.sh /etc/rpi-midi-hub/
 mv ./midiconnect.py /etc/rpi-midi-hub/
-chown -R root:root /etc/rpi/midi-hub
+#chown -R root:root /etc/rpi/midi-hub has / instead of -
+chown -R root:root /etc/rpi-midi-hub
 
 echo "create udev rule to run script on USB add/remove"
 file="/etc/udev/rules.d/89-rpi-midi-hub.rules"
